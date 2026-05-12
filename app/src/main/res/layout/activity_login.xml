@@ -59,14 +59,15 @@
         android:textStyle="bold"
         android:layout_marginBottom="24dp" />
 
-    <TextView
-        android:id="@+id/tvCadastrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/btnIrCadastrar"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFFFFF"
         android:text="Cadastrar"
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        android:padding="8dp" />
+        android:textColor="#000000"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvEsqueciSenha"
