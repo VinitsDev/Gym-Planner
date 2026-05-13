@@ -4,11 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.gymplanner.R;
+import com.example.gymplanner.ui.home.HomeActivity;
 
 public class StartTrainingActivity extends AppCompatActivity {
 
@@ -29,6 +31,15 @@ public class StartTrainingActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton btnVoltar = findViewById(R.id.btnVoltar);
+        btnVoltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(StartTrainingActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

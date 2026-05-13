@@ -29,5 +29,16 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
+        Button buttonCadastrar = findViewById(R.id.btnCadastrar);
+        buttonCadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 }
