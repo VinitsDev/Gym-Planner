@@ -36,6 +36,29 @@
             android:name=".ui.register.RegisterActivity"
             android:exported="false"/>
 
+        <activity
+            android:name=".ui.history.TrainingHistoryActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.split.SplitCreateActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.split.SplitDetailActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.split.SplitListActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.training.StartTrainingActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.training.TrainingInProgressActivity"
+            android:exported="false"/>
 
     </application>
 

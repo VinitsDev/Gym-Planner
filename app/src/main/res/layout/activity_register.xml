@@ -88,5 +88,14 @@
             android:backgroundTint="#FFFFFF"
             android:textStyle="bold" />
 
+        <Button
+            android:id="@+id/btnVoltarLogin"
+            android:layout_width="187dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#000000"
+            android:text="Voltar"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
     </LinearLayout>
 </ScrollView>
