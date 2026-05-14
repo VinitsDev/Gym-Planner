@@ -8,6 +8,8 @@ public class Training {
     private String date;
     private int duration;
 
+    public Training(){}
+
     public Training(int id, int userId, int splitId, String date, int duration) {
         this.id = id;
         this.userId = userId;

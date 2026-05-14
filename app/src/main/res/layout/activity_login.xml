@@ -24,17 +24,17 @@
         android:layout_marginBottom="32dp" />
 
     <EditText
-        android:id="@+id/etLoginNome"
+        android:id="@+id/etLoginEmail"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Nome"
-        android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#888888"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#444444"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
         android:paddingStart="8dp"
         android:paddingEnd="8dp"
-        android:layout_marginBottom="16dp" />
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888" />
 
     <EditText
         android:id="@+id/etLoginSenha"

@@ -8,6 +8,8 @@ public class SplitExercise {
     private int series;
     private int repetitions;
 
+    public SplitExercise(){}
+
     public SplitExercise(int id, int splitId, String name, int series, int repetitions) {
         this.id = id;
         this.splitId = splitId;

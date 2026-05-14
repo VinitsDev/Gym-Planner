@@ -9,6 +9,8 @@ public class TrainingExercise {
     private int repetitions;
     private double Weight;
 
+    public TrainingExercise(){}
+
     public TrainingExercise(int id, int trainingId, String name, int series, int repetitions, double weight) {
         this.id = id;
         this.trainingId = trainingId;

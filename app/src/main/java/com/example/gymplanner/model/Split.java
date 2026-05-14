@@ -7,6 +7,8 @@ public class Split {
     private String name;
     private String descricption;
 
+    public Split(){}
+
     public Split(int id, int userId, String name, String descricption) {
         this.id = id;
         this.userId = userId;
