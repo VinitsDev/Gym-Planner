@@ -16,7 +16,7 @@ O **Gym Planner** funciona como um assistente pessoal de treinos, permitindo que
 
 O projeto foi desenvolvido como atividade acadêmica, aplicando conceitos fundamentais como **CRUD, SQLite e navegação com Intents** no Android.
 
-# Modelo Relacional do Banco de Dados:
+### Modelo Relacional do Banco de Dados:
 
 <img width="791" height="361" alt="image" src="https://github.com/user-attachments/assets/924e8e28-e9c5-41b9-ba28-9e085bf69473" />
 
